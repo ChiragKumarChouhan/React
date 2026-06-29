@@ -1,10 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import App from './App.jsx'
+// eslint-disable-next-line react-refresh/only-export-components
+function MyApp() {
+  return (
+    <div>
+      <h1>Custom App!</h1>
+    </div>
+  );
+}
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <MyApp />
+  </StrictMode>
+);

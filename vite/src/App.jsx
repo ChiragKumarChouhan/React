@@ -1,12 +1,10 @@
 
-
+import Chirag from "./Chirag"
 function App() {
 
 
   return (
-   <h1>
-    react
-   </h1>
+  <Chirag/>
   )
 }
 
